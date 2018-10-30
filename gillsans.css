@@ -1,0 +1,261 @@
+header {
+    color: #e9744e;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    font-size: 150px;
+    transition-property: font-size;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 200ms; 
+
+        }
+header:hover {
+    font-size: 300px;
+}
+
+body {
+    background-color: #ffe3c6;
+    background-image: url(ripe_peach_on_a_transparent_background__by_prussiaart-dccapjc.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right; 
+    background-size: 700px;
+    }
+
+h1 {
+    color: black;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 25px;
+   -webkit-animation: movieSkew 3.5s linear infinite alternate;  
+  
+    
+}
+@-webkit-keyframes movieSkew {
+  0% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    color: #ffe3c6;
+    -webkit-transform: translateY(200px) skewX(-20deg);
+  }
+  100% {
+    -webkit-transform: translateY(400px) skewY(-30deg);
+  }  
+}
+
+
+h2 {
+    color: #e98a63;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 60px;
+    transition-property: color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms; 
+}
+
+h2:hover {
+    color: black;
+    cursor: pointer;
+}
+
+h3 {
+    color: #e98a63;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 50px;
+    text-align: left;
+    transition-property: color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms; 
+}
+
+h3:hover {
+    color: black;
+    cursor: pointer;
+}
+
+h4 {
+    color: #e98a63;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 40px;
+    transition-property: color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms; 
+}
+
+h4:hover {
+    color: black;
+    cursor: pointer;
+}
+
+h5 {
+    color: #e98a63;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+    text-align: left;
+    transition-property: color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms; 
+}
+
+h5:hover {
+    color: black;
+    cursor: pointer;
+}
+
+h6 {
+    color: #e98a63;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+    transition-property: color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms; 
+}
+
+h6:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.peach1{
+    color: #e98a63;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.peach2{
+    color: #e98a63;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+ }
+
+.peach3{
+    color: #e98a63;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+.peach4{
+    color: #e98a63;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+ }
+
+.peach5{
+    color: #e98a63;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: oblique;
+
+ }
+
+.peach6{
+    color: #e98a63;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: oblique;
+
+ }
+
+.peach7{
+    color: #e98a63;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+
+ }
+ .peach8{
+    color: #e98a63;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+
+ }
+
+.article1 {
+    color: black;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1em;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 2,1;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.article2 {
+    color: black;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.4em;
+        animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 2,1;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.article3 {
+    color: black;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.7em;
+        animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 2,1;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+footer {
+     color: black;
+     font-family: "Gill Sans", sans-serif;
+     font-size: 15px;
+ }
+
