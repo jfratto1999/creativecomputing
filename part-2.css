@@ -1,0 +1,39 @@
+body {
+	font-family: "DIN 2014 Narrow",sans-serif;
+	background-color:#eef1fc;
+
+
+}
+
+.back {
+    background-color: red;
+    border: none;
+    padding: 20px;
+    display: inline-block;
+    margin: 4px 2px;
+}
+
+.back {border-radius: 50%;}
+
+.forward {
+	background-color: green;
+    border: none;
+    padding: 20px;
+    display: inline-block;
+    margin: 4px 2px;
+}
+
+.forward {border-radius: 50%;}
+
+.wsp {
+    float:center;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+   }
+
+.wsp:hover {
+    opacity: 0;
+      }
+}
