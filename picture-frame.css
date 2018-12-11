@@ -1,0 +1,23 @@
+.body {
+	display: block;
+
+}
+
+.outer-edge {
+	height: 240px;
+	width: 420px;
+	border: 6px solid brown;
+	position: fixed;
+
+
+}
+
+.inside-edge {
+	height: 200px;
+	width: 380px;
+	border: 6px solid brown;
+	position: fixed;
+	top: 28px; left: 28px;
+
+
+}
