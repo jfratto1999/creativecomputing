@@ -7,7 +7,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="homepage.css">
-        <script type="text/javascript" src="homepage.js"></script>
+		<script type = "text/javascript">
+                    function Warn() {
+                       alert ("This is the map for my walk to school. It usually takes me about 30 minutes to get from Alphabet City to The New School.");
+
+                    } 
+        </script>     
         
    
        
@@ -17,8 +22,11 @@
 	
 	<h1> MY DAILY ROUTE </h1>
 	<h2> BY JULIETTE FRATTO </h2>
+	<form>
+         <input type = "button" class = "click-me" value="click " onclick = "Warn();" />
+        </form> 
 	<form action="part-1.html">
-		<button class="forward" type="submit"></button>
+		<button class="forward" type="submit">next</button>
 	</form>
 	<div>
 	<img class="map" src="homepage-map.png" alt="Map-1" style="width:900px;height:900px;">

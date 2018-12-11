@@ -7,21 +7,33 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="part-1.css">
-   
+        <script type = "text/javascript">
+                    function Warn() {
+                       alert ("This is Tompkins Square Park, one of my favorite parks in New York.");
+
+                    } 
+        </script>     
        
     </head>
 
 <body>
 	<h1> MY DAILY ROUTE </h1>
 	<h2> LANDMARK 1: TOMPKINS SQUARE PARK </h2>
+    
+        <form>
+         <input type = "button" class = "click-me" value="click " onclick = "Warn();" />
+        </form> 
+
     <form action="homepage.html">
-        <button class="back" type="submit"></button>
+        <button class="back" type="submit">back</button>
     </form>
     <form action="part-2.html">
-        <button class="forward" type="submit"></button>
+        <button class="forward" type="submit">next</button>
     </form>
 
     <div>
     <img class="tompkins" src="Tompkins_Square_Park.jpg" alt="tompkins" style="width:900px;height:900px;">
     </div>
+
+
 </body>

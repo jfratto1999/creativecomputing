@@ -5,34 +5,32 @@ body {
 
 }
 .back {
-    background-color: red;
+    background-color: #a3c0f5;
     border: none;
     padding: 20px;
     display: inline-block;
     margin: 4px 2px;
 }
 
-.back {border-radius: 50%;}
 
 .forward {
-	background-color: green;
+	background-color: #728aef;
     border: none;
     padding: 20px;
     display: inline-block;
     margin: 4px 2px;
 }
 
-.forward {border-radius: 50%;}
 
 .tompkins {
     float:center;
     opacity: 1;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-   }
+}
 
-.tompkins:hover {
-    opacity: 0;
-      }
+.click-me {
+    background-color: #c888e1;
+    border: none;
+    padding: 20px;
+    display: inline-block;
+    margin: 4px 2px;
 }
