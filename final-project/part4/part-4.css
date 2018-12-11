@@ -1,0 +1,27 @@
+body {
+	font-family: "DIN 2014 Narrow",sans-serif;
+	background-color:#eef1fc;
+
+
+}
+
+.back {
+    background-color: #a3c0f5;
+    border: none;
+    padding: 20px;
+    display: inline-block;
+    margin: 4px 2px;
+}
+
+.uc {
+    float:center;
+    opacity: 1;
+   }
+   
+.click-me {
+    background-color: #c888e1;
+    border: none;
+    padding: 20px;
+    display: inline-block;
+    margin: 4px 2px;
+}
