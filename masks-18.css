@@ -1,0 +1,40 @@
+body {
+      font-family: "Helvetica";
+      background-color: #acd8ef;
+      
+}
+.masks {
+    color: red;
+    font-size: 500px;
+    transition-property: color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms; 
+}
+
+.masks:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+.by-line {
+    color: black;
+    font-size: 400px;
+    transition-property: color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms; 
+}
+
+.by-line:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.poem {
+
+      color: black;
+      font-size: 100px;
+
+}

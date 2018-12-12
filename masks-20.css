@@ -1,0 +1,94 @@
+body {
+      font-family: "Helvetica";
+      background-color: #acd8ef;
+      
+}
+.masks {
+    color: red;
+    font-size: 300px;
+    transition-property: color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms; 
+            animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 2,1;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.masks:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+.by-line {
+    color: black;
+    font-size: 200px;
+    transition-property: color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms;         animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 2,1;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.by-line:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.poem {
+
+      color: white;
+      font-size: 40px;
+          transition-property: color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms; 
+            animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 2,1;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.poem:hover {
+    color: black;
+    cursor: pointer;
+}
+
+}

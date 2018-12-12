@@ -1,0 +1,39 @@
+body {
+	font-family: "Helvetica";
+	background-color: #acd8ef;
+	font-weight: lighter;
+	
+}
+h6 {
+		color: white;
+		font-size: 25px;
+	transition-property: color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms; 
+}
+
+h6:hover {
+    color: black;
+    cursor: pointer;
+}
+
+}
+
+h1{
+	font-size: 500px;
+}
+
+h4 {
+	color: red;
+	font-size: 100px;
+    transition-property: color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms; 
+}
+
+h4:hover {
+    color: black;
+    cursor: pointer;
+}
